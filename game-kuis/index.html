@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuis Gampang Banget!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Game Kuis Gampang Bre!</h1>
+    <div id="welcome-box">
+      <p>Selamat datang di Kuis Gampang Banget!</p>
+      <p>Klik tombol di bawah untuk mulai.</p>
+      <button id="mulai-btn" class="kuis-btn">Mulai Kuis</button>
+    </div>
+    <div id="kuis-box" class="hidden">
+      <div id="pertanyaan"></div>
+      <div id="pilihan-jawaban"></div>
+      <button id="next-btn" disabled>Soal Berikutnya</button>
+    </div>
+    <div id="skor-box" class="hidden">
+      <h2>Skor Akhir Kamu:</h2>
+      <p id="skor-akhir"></p>
+      <div id="pesan-skor"></div>
+      <button onclick="location.reload()" id="main-lagi-btn" class="kuis-btn">Main Lagi</button>
+    </div>
+    <div class="watermark">
+      <span class="wm-text">© 2025 By Hanan Ganteng</span><span> 😎✌️</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
