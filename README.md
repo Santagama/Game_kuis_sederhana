@@ -18,6 +18,7 @@ game-kuis/
 ├── style.css           # Styling tampilan
 ├── script.js           # Logika permainan
 └── image/              # Folder gambar latar & ilustrasi
+
 ▶️ Cara Menjalankan
 Clone repositori ini atau download ZIP-nya.
 Buka file index.html di browser kesayanganmu.
